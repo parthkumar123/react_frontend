@@ -34,3 +34,26 @@ export const serverJson = () => {
         // Add more product objects here
     ];
 }
+
+export const serverTypeJson = () => {
+    return [
+        {
+            id: 1,
+            image: product1,
+            description: 'General Purpose'
+        }, {
+            id: 2,
+            image: product1,
+            description: 'CPU Optimized'
+        }, {
+            id: 3,
+            image: product1,
+            description: 'Memory Optimized'
+        }, {
+            id: 4,
+            image: product1,
+            description: 'Storage Optimized'
+        },
+        // Add more product objects here
+    ];
+}
