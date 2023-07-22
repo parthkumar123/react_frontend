@@ -1,5 +1,11 @@
 import product1 from '../assests/images/1.avif';
 import optimizedCloudCompute from '../assests/images/optimized_cloud_compute.svg';
+import almaIcon from '../assests/images/icon-alma.svg';
+import alpinelinuxIcon from '../assests/images/icon-alpinelinux.svg';
+import centosIcon from '../assests/images/icon-centos.svg';
+import coreosIcon from '../assests/images/icon-coreos.svg';
+import debianIcon from '../assests/images/icon-debian.svg';
+import flatcarIcon from '../assests/images/icon-flatcar.svg';
 import cloudCompute from '../assests/images/cloud_compute.svg';
 import cloudGpu from '../assests/images/cloud_gpu.svg';
 import bareMetal from '../assests/images/bare_metal.svg';
@@ -317,5 +323,87 @@ export const serverSizeJson = () => {
             }
         }
         // Add more product objects here
+    ];
+}
+
+export const serverImageJson = () => {
+    return [
+        {
+            id: 1,
+            imageType: 'Operating System',
+            details: [
+                {
+                    image: almaIcon,
+                    name: 'AlmaLinux',
+                    version: [
+                        "9 x64",
+                        "8 x64"
+                    ]
+                },
+                {
+                    image: alpinelinuxIcon,
+                    name: 'Alpine Linux',
+                    version: "Select Version",
+                },
+                {
+                    image: centosIcon,
+                    name: 'CentosOS',
+                    version: "Select Version",
+                }, {
+                    image: coreosIcon,
+                    name: 'Fedora CoreOS',
+                    version: [
+                        "9 x64",
+                        "8 x64"
+                    ]
+                },
+                {
+                    image: debianIcon,
+                    name: 'Debian',
+                    version: "Select Version",
+                },
+                {
+                    image: flatcarIcon,
+                    name: 'Flatcar Container Linux',
+                    version: "Select Version",
+                }
+            ]
+        }, {
+            id: 2,
+            imageType: 'MarketPlace Apps',
+            details: [
+                {
+                    image: product1,
+                    name: 'AlmaLinux',
+                    version: [
+                        "9 x64",
+                        "8 x64"
+                    ]
+                },
+                {
+                    image: product1,
+                    name: 'Alpine Linux',
+                    version: "Select Version",
+                }
+            ]
+        }, {
+            id: 3,
+            imageType: 'Upload ISO',
+            details: [
+                {
+                    image: product1,
+                    name: 'AlmaLinux',
+                    version: [
+                        "9 x64",
+                        "8 x64"
+                    ]
+                },
+                {
+                    image: product1,
+                    name: 'Alpine Linux',
+                    version: "Select Version",
+                }
+            ]
+        }
     ];
 }

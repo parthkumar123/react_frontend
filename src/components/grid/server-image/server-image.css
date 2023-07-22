@@ -1,0 +1,102 @@
+/* CSS for serverimage-card-component-container */
+.serverimage-card-component-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* CSS for serverimage-card-component */
+.serverimage-card-component {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 347px;
+    height: 100px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: border-color 0.2s;
+}
+
+.serverimage-card-component.selected {
+    border-color: blue;
+}
+
+.serverimage-image-container {
+    width: 25%;
+}
+
+.serverimage-image-container img {
+    width: 70%;
+    height: auto;
+}
+
+.serverimage-info-container {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.serverimage-name {
+    width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+}
+
+.serverimage-version {
+    width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* CSS for ImageDescriptionVersionComponent */
+.image-description-version {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.description {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.version {
+    text-align: center;
+    font-size: 14px;
+}
+
+.version select {
+    margin-top: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Style for selected version */
+.version strong {
+    color: #007bff;
+}
