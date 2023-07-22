@@ -16,7 +16,7 @@ const ProductGrid = ({ products }) => {
                     className={`product-card ${selectedProduct === product ? 'selected' : ''}`}
                     onClick={() => handleProductClick(product)}
                 >
-                    <img src={product.image} alt={product.title} className="product-image" />
+                    <div className="product-image" ><img src={product.image} alt={product.title} /></div>
                     <h2 className="product-title">{product.title}</h2>
                     <p className="product-description">{product.description}</p>
                     <div className="product-price-box">

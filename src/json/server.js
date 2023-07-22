@@ -1,31 +1,39 @@
 import product1 from '../assests/images/1.avif';
+import optimizedCloudCompute from '../assests/images/optimized_cloud_compute.svg';
+import cloudCompute from '../assests/images/cloud_compute.svg';
+import cloudGpu from '../assests/images/cloud_gpu.svg';
+import bareMetal from '../assests/images/bare_metal.svg';
+import generalPurpose from '../assests/images/general_purpose.svg';
+import cpuOtpimized from '../assests/images/cpu_optimized.svg';
+import memoryOptimized from '../assests/images/memory_optimized.svg';
+import storageOptimized from '../assests/images/storage_optimized.svg';
 
 export const serverJson = () => {
     return [
         {
             id: 1,
-            image: product1,
+            image: optimizedCloudCompute,
             title: 'Optimized Cloud Compute',
             description: 'Virtual machines for more demanding business apps, e.g. production websites, CI/CD, video transcoding, or larger databases.',
             price: "$28.00/mo",
             buttonTitle: "Dedicated vCPU"
         }, {
             id: 2,
-            image: product1,
+            image: cloudCompute,
             title: 'Cloud Compute',
             description: 'Virtual machines for apps with bursty performance, e.g. low traffic websites, blogs, CMS, dev/test environments, and small databases.',
             price: "$2.50/mo",
             buttonTitle: "Shared vCPU"
         }, {
             id: 3,
-            image: product1,
+            image: cloudGpu,
             title: 'Cloud GPU',
             description: 'Virtual machines with fractional or full NVIDIA GPUs for AI, machine learning, HPC, visual computing and VDI. Also available as Bare Metal.',
             price: "$21.50/mo",
             buttonTitle: "NVIDIA GPU + Dedicated vCPU"
         }, {
             id: 4,
-            image: product1,
+            image: bareMetal,
             title: 'Bare Metal',
             description: 'Single tenant bare metal for apps with the most demanding performance or security requirements.',
             price: "$120.00/mo",
@@ -39,22 +47,22 @@ export const serverTypeJson = () => {
     return [
         {
             id: 1,
-            image: product1,
+            image: generalPurpose,
             name: 'General Purpose',
             description: 'Often a good starting point, these VMs provide a typical balance of CPU, RAM, and NVMe SSD resources.'
         }, {
             id: 2,
-            image: product1,
+            image: cpuOtpimized,
             name: 'CPU Optimized',
             description: 'For compute bound applications, these VMs provide proportionally more CPU than they do RAM and NVMe SSD.'
         }, {
             id: 3,
-            image: product1,
+            image: memoryOptimized,
             name: 'Memory Optimized',
             description: 'For memory bound applications, these VMs provide proportionally more RAM than they do CPU and NVMe SSD.'
         }, {
             id: 4,
-            image: product1,
+            image: storageOptimized,
             name: 'Storage Optimized',
             description: 'These VMs provide especially generous amounts of NVMe SSD storage to accompany a typical balance of CPU and RAM.'
         },

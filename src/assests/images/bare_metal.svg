@@ -1,0 +1,263 @@
+<svg class="svg-product" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 244 243.1" style="" xml:space="preserve" data-animation="" data-animation-options="type: packageIcon; delay: 160;">
+	<g class="svg-illustration-shadow" data-animation-shadow="" style="">
+		<path class="bare-metal-cls-1" d="M122,117.5a9.07,9.07,0,0,0-4.3,1c-1.1.6-102.3,58.7-103.4,59.3a3,3,0,0,0-1.8,2.5h0a3.13,3.13,0,0,0,1.8,2.5c1.1.6,102.3,58.7,103.4,59.3a9.33,9.33,0,0,0,8.6,0c1.1-.6,102.3-58.7,103.4-59.3a3,3,0,0,0,1.8-2.5h0a3.13,3.13,0,0,0-1.8-2.5c-1.1-.6-102.3-58.7-103.4-59.3a10.43,10.43,0,0,0-4.3-1"></path>
+	</g>
+	<g class="svg-illustration-bottom" data-animation-bottom="" style="">
+		<path class="bare-metal-cls-3" d="M232,107.9h0v29.2a3.13,3.13,0,0,1-1.8,2.5c-1.1.6-102.3,58.7-103.4,59.3a9.33,9.33,0,0,1-8.6,0c-1.1-.6-102.3-58.7-103.4-59.3a3,3,0,0,1-1.8-2.5V108h0v-.5h.1a3.39,3.39,0,0,1,1.7-2c1.1-.6,102.3-59.6,103.4-60.2a9.33,9.33,0,0,1,8.6,0c1.1.6,102.3,59.6,103.4,60.2a3.39,3.39,0,0,1,1.7,2h.1Z"></path>
+		<path class="bare-metal-cls-4" d="M232.09,107.87h0v29.2a3.13,3.13,0,0,1-1.8,2.5c-1.1.6-102.3,58.7-103.4,59.3a9.33,9.33,0,0,1-8.6,0c-1.1-.6-102.3-58.7-103.4-59.3a3,3,0,0,1-1.8-2.5V108h0v-.5h.1a3.39,3.39,0,0,1,1.7-2c1.1-.6,102.3-59.6,103.4-60.2a9.33,9.33,0,0,1,8.6,0c1.1.6,102.3,59.6,103.4,60.2a3.39,3.39,0,0,1,1.7,2h.1Z"></path>
+		<path class="bare-metal-cls-5" d="M230.2,110.1c-1.1.6-102.3,59.1-103.4,59.8a9.33,9.33,0,0,1-8.6,0c-1.1-.6-102.3-59.1-103.4-59.8a2.7,2.7,0,0,1-1.7-3.3,2.86,2.86,0,0,1,1.7-1.7c1.1-.6,102.3-59.1,103.4-59.8a9.33,9.33,0,0,1,8.6,0c1.1.6,102.3,59.1,103.4,59.8a2.56,2.56,0,0,1,1.6,3.3A2.68,2.68,0,0,1,230.2,110.1Zm-7.2-5.2c-1-.6-96-55.9-97.1-56.5a8.9,8.9,0,0,0-8.1,0c-1,.6-96,55.9-97.1,56.5a2.5,2.5,0,0,0,0,4.7c1,.6,96.1,55.9,97.1,56.5a8.9,8.9,0,0,0,8.1,0c1-.6,96.1-55.9,97.1-56.5a2.45,2.45,0,0,0,1.5-3.2A3.11,3.11,0,0,0,223,104.9Z"></path>
+		<path class="bare-metal-cls-6" d="M117.9,165.9c-.8-.4-50.8-29.5-78.8-45.7,30.3-17.5,78.3-45.2,79-45.7a9.33,9.33,0,0,1,8.6,0c.8.4,48.1,27.8,78.5,45.4-27.9,16.2-78.5,45.6-79.3,46A8.69,8.69,0,0,1,117.9,165.9Z"></path>
+		<g>
+			<path class="bare-metal-cls-7" d="M26,127.78,31.33,131"></path>
+			<path class="bare-metal-cls-8" d="M26,133.13l5.34,3.21"></path>
+			<path class="bare-metal-cls-8" d="M35.61,133.13,41,136.34"></path>
+			<path class="bare-metal-cls-7" d="M35.61,138.47,41,141.68"></path>
+		</g>
+		<g>
+			<path class="bare-metal-cls-9" d="M211,132.47v7"></path>
+			<path class="bare-metal-cls-9" d="M215,130v7"></path>
+			<path class="bare-metal-cls-9" d="M219,127.45V135"></path>
+			<path class="bare-metal-cls-9" d="M223,125.44v7"></path>
+		</g>
+		<path class="bare-metal-cls-10" d="M70.53,156.79l38.63,22.15"></path>
+	</g>
+	<g class="svg-illustration-top" data-animation-top="" style="">
+		<g id="board">
+			<path class="bare-metal-cls-11" d="M232,64.49,13,64.1v4h0c.1,1.1,1,3.2,2,3.6,1.1.6,102.19,59.53,103.28,60.13a9.33,9.33,0,0,0,8.6,0C128,131.23,229.1,72.3,230.2,71.7s1.8-2.39,1.8-3.5Z"></path>
+			<path class="bare-metal-cls-12" d="M122.5,0a9.07,9.07,0,0,0-4.3,1c-1.1.7-102.3,59.7-103.4,60.3A3.13,3.13,0,0,0,13,63.8h0a3,3,0,0,0,1.8,2.5c1.1.6,102.3,59.6,103.4,60.2a9.33,9.33,0,0,0,8.6,0c1.1-.6,102.3-59.6,103.4-60.2a3.13,3.13,0,0,0,1.8-2.5h0a3,3,0,0,0-1.8-2.5c-1.1-.6-102.3-59.6-103.4-60.2A9.16,9.16,0,0,0,122.5,0"></path>
+			<path class="bare-metal-cls-13" d="M35.5,64.4a5.51,5.51,0,0,1-5,0c-1.4-.8-1.4-2,0-2.8a5.51,5.51,0,0,1,5,0C36.9,62.4,36.9,63.7,35.5,64.4Zm90,52a5.3,5.3,0,0,1-4.9,0c-1.4-.8-1.4-2,0-2.8a5.3,5.3,0,0,1,4.9,0c1.3.8,1.3,2.1,0,2.8Zm0-104a5.3,5.3,0,0,1-4.9,0c-1.4-.8-1.4-2,0-2.8a5.3,5.3,0,0,1,4.9,0c1.3.8,1.3,2.1,0,2.8Zm96,53a5.51,5.51,0,0,1-5,0c-1.4-.8-1.4-2,0-2.8a5.51,5.51,0,0,1,5,0c1.4.8,1.4,2.1,0,2.8Z"></path>
+			<path class="bare-metal-cls-14" d="M123,32.1,163.7,54l14.1,8.1a1.08,1.08,0,0,1,.7,1.4,1.21,1.21,0,0,1-.7.7l-53,30.4a3.66,3.66,0,0,1-1.8.4,3.92,3.92,0,0,1-1.8-.4l-53-30.4a1.08,1.08,0,0,1-.7-1.4,1.21,1.21,0,0,1,.7-.7Z"></path>
+			<g class="bare-metal-cls-15">
+				<g class="bare-metal-cls-16">
+					<path class="bare-metal-cls-17" d="M72.2,27.9l8.3,5.2v12l9.2,5.4"></path>
+				</g>
+				<g class="bare-metal-cls-16">
+					<path class="bare-metal-cls-17" d="M134.8,88.8l8.7,6.2v10l10.4,6.9"></path>
+				</g>
+				<g class="bare-metal-cls-16">
+					<path class="bare-metal-cls-17" d="M156.3,76.5l8.3,5.5V94l9.4,6.1"></path>
+				</g>
+				<g class="bare-metal-cls-16">
+					<path class="bare-metal-cls-17" d="M93,16.4l10.5,6.7v11l9,5"></path>
+				</g>
+				<g class="bare-metal-cls-16">
+					<path class="bare-metal-cls-17" d="M166.5,70.2l8,5.4h23l8.6,5.4"></path>
+				</g>
+				<g class="bare-metal-cls-16">
+					<path class="bare-metal-cls-17" d="M52.8,72.7,61.2,78"></path>
+				</g>
+				<g class="bare-metal-cls-16">
+					<path class="bare-metal-cls-17" d="M68.6,82.2,76,86.4"></path>
+				</g>
+				<g class="bare-metal-cls-16">
+					<path class="bare-metal-cls-17" d="M84.5,90.6l22.2,13.7"></path>
+				</g>
+				<g class="bare-metal-cls-16">
+					<path class="bare-metal-cls-18" d="M40.4,46.4l8,5.2h22l7.7,4.8"></path>
+				</g>
+			</g>
+			<g id="small">
+				<path class="bare-metal-cls-19" d="M186.9,47a.6.6,0,0,1,.4-.1c.2,0,.3,0,.4.1l4.7,2.8,4.8,2.8a.52.52,0,0,1,.2.4c0,.1-.1.1-.2.2L192.4,56l-4.7,2.8a.85.85,0,0,1-.8,0L182.1,56l-4.8-2.8a.52.52,0,0,1-.2-.4c0-.1.1-.1.2-.2l4.8-2.8Z"></path>
+				<path class="bare-metal-cls-19" d="M141.8,20.7a.6.6,0,0,1,.4-.1c.2,0,.3,0,.4.1l4.7,2.8,4.8,2.8a.52.52,0,0,1,.2.4c0,.1-.1.1-.2.2l-4.8,2.8-4.7,2.8a.85.85,0,0,1-.8,0L137,29.7l-4.8-2.8a.52.52,0,0,1-.2-.4c0-.1.1-.1.2-.2l4.8-2.8Z"></path>
+				<path class="bare-metal-cls-20" d="M148.9,23.4v2.7c0,.1-.1.1-.1.2l-3.2,2-3.2,2a.5.5,0,0,1-.6,0l-3.2-2-3.2-2c-.1,0-.1-.1-.1-.2V23.4Z"></path>
+				<path class="bare-metal-cls-21" d="M141.7,19.4c.1,0,.2-.1.3-.1a.37.37,0,0,1,.3.1l3.2,1.9,3.2,1.9c.1,0,.1.1.1.2a.1.1,0,0,1-.1.1l-3.2,1.9-3.2,1.9c-.1,0-.2.1-.3.1a.37.37,0,0,1-.3-.1l-3.2-1.9-3.2-1.9c-.1,0-.1-.1-.1-.2a.1.1,0,0,1,.1-.1l3.2-1.9Z"></path>
+				<path class="bare-metal-cls-22" d="M194.3,49.8v2.7c0,.1-.1.1-.1.2l-3.2,2-3.2,2a.5.5,0,0,1-.6,0l-3.2-2-3.2-2c-.1,0-.1-.1-.1-.2V49.8Z"></path>
+				<path class="bare-metal-cls-23" d="M187.1,45.8c.1,0,.2-.1.3-.1a.37.37,0,0,1,.3.1l3.2,1.9,3.2,1.9c.1,0,.1.1.1.2a.1.1,0,0,1-.1.1l-3.2,1.9-3.2,1.9c-.1,0-.2.1-.3.1a.37.37,0,0,1-.3-.1l-3.2-1.9-3.2-1.9c-.1,0-.1-.1-.1-.2a.1.1,0,0,1,.1-.1l3.2-1.9Z"></path>
+			</g>
+		</g>
+		<g id="cpu">
+			<path class="bare-metal-cls-24" d="M165,54.71V63a1.22,1.22,0,0,1-.71,1L144.53,75.36,124.77,86.7a3.71,3.71,0,0,1-1.82.4,4,4,0,0,1-1.82-.4L101.37,75.36,81.71,64A1.22,1.22,0,0,1,81,63v-8.3Z"></path>
+			<path class="bare-metal-cls-25" d="M121.23,30.83a3.65,3.65,0,0,1,3.54,0L144.5,42.26,164.24,53.7a1.24,1.24,0,0,1,.71,1.42,1.6,1.6,0,0,1-.71.7L144.5,67.26,124.77,78.7a3.74,3.74,0,0,1-1.82.4,4,4,0,0,1-1.82-.4L101.39,67.26,81.76,55.72a1.23,1.23,0,0,1-.71-1.41,1.21,1.21,0,0,1,.71-.71L101.5,42.16Z"></path>
+		</g>
+	</g>
+	<defs>
+		<linearGradient id="dedicated-gradient_17" x1="122.26" y1="-395.29" x2="122.26" y2="-520.94" gradientTransform="matrix(1, 0, 0, -1, 0, -278)" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#13151e" stop-opacity="0"></stop>
+			<stop offset="1" stop-color="#131532"></stop>
+		</linearGradient>
+		<linearGradient id="bare-metal-gradient" x1="13" y1="478.1" x2="232" y2="478.1" gradientTransform="translate(0 -356)" gradientUnits="userSpaceOnUse">
+			<stop offset="0.48" stop-color="#d2d8e6"></stop>
+			<stop offset="0.52" stop-color="#e0e4ef"></stop>
+		</linearGradient>
+		<linearGradient id="bare-metal-gradient_2" x1="13.09" y1="478.07" x2="232.09" y2="478.07" gradientTransform="translate(0 -356)" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#bbc1d4" stop-opacity="0"></stop>
+			<stop offset="0.35" stop-color="#bbc1d4" stop-opacity="0.7"></stop>
+			<stop offset="1" stop-color="#bbc1d4" stop-opacity="0"></stop>
+		</linearGradient>
+		<linearGradient id="bare-metal-gradient_11" x1="13" y1="454.49" x2="232" y2="454.49" gradientTransform="translate(0 -356)" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#373f6e"></stop>
+			<stop offset="1" stop-color="#5a6291"></stop>
+		</linearGradient>
+		<linearGradient id="bare-metal-gradient_3" x1="13" y1="-341.78" x2="232" y2="-341.78" gradientTransform="matrix(1, 0, 0, -1, 0, -278)" gradientUnits="userSpaceOnUse">
+			<stop offset="0.01" stop-color="#3f4b75"></stop>
+			<stop offset="1" stop-color="#636f99"></stop>
+		</linearGradient>
+		<clipPath id="clip-path">
+			<path class="bare-metal-cls-1" d="M122.5,0a9.07,9.07,0,0,0-4.3,1c-1.1.7-102.3,59.7-103.4,60.3A3.13,3.13,0,0,0,13,63.8h0a3,3,0,0,0,1.8,2.5c1.1.6,102.3,59.6,103.4,60.2a9.33,9.33,0,0,0,8.6,0c1.1-.6,102.3-59.6,103.4-60.2a3.13,3.13,0,0,0,1.8-2.5h0a3,3,0,0,0-1.8-2.5c-1.1-.6-102.3-59.6-103.4-60.2A9.16,9.16,0,0,0,122.5,0"></path>
+		</clipPath>
+		<linearGradient id="bare-metal-gradient_4" x1="135.13" y1="-304.9" x2="148.88" y2="-304.9" gradientTransform="matrix(1, 0, 0, -1, 0, -278)" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#1d53da"></stop>
+			<stop offset="1" stop-color="#3f75fc"></stop>
+		</linearGradient>
+		<linearGradient id="bare-metal-gradient_5" x1="135.12" y1="-301.35" x2="148.88" y2="-301.35" gradientTransform="matrix(1, 0, 0, -1, 0, -278)" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#0397f6"></stop>
+			<stop offset="1" stop-color="#00baff"></stop>
+		</linearGradient>
+		<linearGradient id="bare-metal-gradient_6" x1="180.54" y1="-331.3" x2="194.28" y2="-331.3" xlink:href="#bare-metal-gradient_4"></linearGradient>
+		<linearGradient id="bare-metal-gradient_7" x1="180.53" y1="-327.75" x2="194.28" y2="-327.75" xlink:href="#bare-metal-gradient_5"></linearGradient>
+		<linearGradient id="bare-metal-gradient_8" x1="81" y1="-348.91" x2="165.09" y2="-348.91" xlink:href="#bare-metal-gradient_4"></linearGradient>
+		<linearGradient id="bare-metal-gradient_9" x1="81" y1="-332.74" x2="165" y2="-332.74" xlink:href="#bare-metal-gradient_5"></linearGradient>
+		<style>
+		.bare-metal-cls-1 {
+			opacity: 0.08;
+			fill: url(#dedicated-gradient_17);
+		}
+
+		.bare-metal-cls-10,
+		.bare-metal-cls-17,
+		.bare-metal-cls-18,
+		.bare-metal-cls-7,
+		.bare-metal-cls-8,
+		.bare-metal-cls-9 {
+			fill: none;
+		}
+
+		.bare-metal-cls-2 {
+			fill: #001855;
+			opacity: 0.08;
+		}
+
+		.bare-metal-cls-10,
+		.bare-metal-cls-14,
+		.bare-metal-cls-2,
+		.bare-metal-cls-7,
+		.bare-metal-cls-8,
+		.bare-metal-cls-9 {
+			isolation: isolate;
+		}
+
+		.bare-metal-cls-3 {
+			fill: url(#bare-metal-gradient);
+		}
+
+		.bare-metal-cls-4 {
+			fill: url(#bare-metal-gradient_2);
+		}
+
+		.bare-metal-cls-5 {
+			fill: #fff;
+			fill-opacity: 0.5;
+		}
+
+		.bare-metal-cls-6 {
+			fill: #333c5e;
+		}
+
+		.bare-metal-cls-10,
+		.bare-metal-cls-7,
+		.bare-metal-cls-8,
+		.bare-metal-cls-9 {
+			stroke: #142149;
+			stroke-linecap: round;
+		}
+
+		.bare-metal-cls-10,
+		.bare-metal-cls-18,
+		.bare-metal-cls-7,
+		.bare-metal-cls-8,
+		.bare-metal-cls-9 {
+			stroke-linejoin: round;
+		}
+
+		.bare-metal-cls-7,
+		.bare-metal-cls-8 {
+			stroke-width: 2.14px;
+		}
+
+		.bare-metal-cls-10,
+		.bare-metal-cls-7,
+		.bare-metal-cls-9 {
+			opacity: 0.32;
+		}
+
+		.bare-metal-cls-8 {
+			opacity: 0.48;
+		}
+
+		.bare-metal-cls-9 {
+			stroke-width: 2.01px;
+		}
+
+		.bare-metal-cls-10 {
+			stroke-width: 2.06px;
+		}
+
+		.bare-metal-cls-11 {
+			fill: url(#bare-metal-gradient_11);
+		}
+
+		.bare-metal-cls-12 {
+			fill: url(#bare-metal-gradient_3);
+		}
+
+		.bare-metal-cls-13 {
+			fill: #e6e6e6;
+		}
+
+		.bare-metal-cls-14,
+		.bare-metal-cls-19 {
+			fill: #292e47;
+		}
+
+		.bare-metal-cls-14 {
+			opacity: 0.8;
+		}
+
+		.bare-metal-cls-15 {
+			opacity: 0.64;
+		}
+
+		.bare-metal-cls-16 {
+			clip-path: url(#clip-path);
+		}
+
+		.bare-metal-cls-17,
+		.bare-metal-cls-18 {
+			stroke: #292e47;
+			stroke-width: 0.5px;
+		}
+
+		.bare-metal-cls-18 {
+			stroke-linecap: square;
+		}
+
+		.bare-metal-cls-19 {
+			fill-opacity: 0.7;
+		}
+
+		.bare-metal-cls-20 {
+			fill: url(#bare-metal-gradient_4);
+		}
+
+		.bare-metal-cls-21 {
+			fill: url(#bare-metal-gradient_5);
+		}
+
+		.bare-metal-cls-22 {
+			fill: url(#bare-metal-gradient_6);
+		}
+
+		.bare-metal-cls-23 {
+			fill: url(#bare-metal-gradient_7);
+		}
+
+		.bare-metal-cls-24 {
+			fill: url(#bare-metal-gradient_8);
+		}
+
+		.bare-metal-cls-25 {
+			fill: url(#bare-metal-gradient_9);
+		}
+		</style>
+	</defs>
+</svg>

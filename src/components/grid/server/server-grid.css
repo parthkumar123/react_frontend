@@ -10,8 +10,9 @@
 }
 
 .product-image {
-    width: 100%;
-    max-height: 120px;
+    display: flex;
+    justify-content: center;
+    height: 156px;
     object-fit: cover;
     border-radius: 5px;
 }

@@ -24,8 +24,10 @@
 }
 
 .image-container img {
-    width: 100%;
-    height: auto;
+    height: 100%;
+    width: 60%;
+    margin-top: 8px;
+    margin-left: 15px;
 }
 
 .info-container {
