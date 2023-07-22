@@ -9,19 +9,19 @@ const CardComponent = ({ items }) => {
     };
 
     return (
-        <div className="card-component-container">
+        <div className="location-card-component-container">
             {items.map((item) => (
                 <div
                     key={item.id}
-                    className={`card-component ${item === selectedItem ? 'selected' : ''}`}
+                    className={`location-card-component ${item === selectedItem ? 'selected' : ''}`}
                     onClick={() => handleSelect(item)}
                 >
-                    <div className="image-container">
+                    <div className="location-image-container">
                         <img src={item.image} alt="Image" />
                     </div>
-                    <div className="info-container">
-                        <div className="city">{item.city}</div>
-                        <div className="country">{item.country}</div>
+                    <div className="location-info-container">
+                        <div className="location-city">{item.city}</div>
+                        <div className="location-country">{item.country}</div>
                         {item === selectedItem && <div className="tick-icon">✔</div>}
                     </div>
 

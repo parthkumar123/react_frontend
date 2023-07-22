@@ -31,20 +31,20 @@ const CardComponent = ({ items }) => {
     };
 
     return (
-        <div className="card-component-container">
+        <div className="type-card-component-container">
             {items.map((item) => (
                 <div
                     key={item.id}
-                    className={`card-component ${item === selectedItem ? 'selected' : ''}`}
+                    className={`type-card-component ${item === selectedItem ? 'selected' : ''}`}
                     onClick={() => handleSelect(item)}
                 >
-                    <div className="image-container">
+                    <div className="type-image-container">
                         <img src={item.image} alt="Image" />
                     </div>
-                    <div className="info-container">
-                        <p className="description">{item.name}</p>
+                    <div className="type-info-container">
+                        <p className="type-description">{item.name}</p>
                         <span
-                            className="info-icon"
+                            className="type-info-icon"
                             onMouseEnter={handleInfoIconHover}
                             onMouseLeave={handleInfoIconLeave}
                         >
