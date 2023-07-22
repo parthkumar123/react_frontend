@@ -21,7 +21,12 @@ const ProductGrid = ({ products }) => {
                     <p className="product-description">{product.description}</p>
                     <div className="product-price-box">
                         <p className="product-price">Starting From <br />{product.price}</p>
-                        <button className="add-button">{product.buttonTitle}</button>
+                        <button
+                            className="add-button"
+                            onClick={() => handleProductClick(product)}
+                        >
+                            {product.buttonTitle}
+                        </button>
                     </div>
                     {selectedProduct === product && <div className="tick-icon">✔</div>}
                 </div>
