@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './server-type-grid.css'; // Import the CSS file
+import './server-type.css'; // Import the CSS file
 
 const InfoPopup = ({ image, name, description }) => {
     return (

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './server-grid.css';
+import './server.css';
 
 const ProductGrid = ({ products }) => {
     const [selectedProduct, setSelectedProduct] = useState(null);

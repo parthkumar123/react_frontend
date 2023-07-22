@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './server-size-grid.css'; // Import the CSS file
+import './server-size.css'; // Import the CSS file
 
 const CardComponent = ({ items }) => {
     const [selectedItem, setSelectedItem] = useState(null);

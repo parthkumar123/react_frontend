@@ -1,9 +1,10 @@
 import './App.css';
 import { serverJson, serverTypeJson, serverLocationJson, serverSizeJson } from './json/server';
-import ServerGrid from './components/grid/server/server-grid.jsx';
-import ServerTypeGrid from './components/grid/server-type-grid/server-type-grid';
-import ServerLocationGrid from './components/grid/server-location-grid/server-location-grid';
-import ServerSizeGrid from './components/grid/server-size-grid/server-size-grid';
+import ServerGrid from './components/grid/server/server.jsx';
+import ServerTypeGrid from './components/grid/server-type/server-type';
+import ServerLocationGrid from './components/grid/server-location/server-location';
+import ServerSizeGrid from './components/grid/server-size/server-size';
+// import ServerImageGrid from './components/grid/server-image/server-image';
 
 function App() {
   // Fetch server type component details
@@ -30,6 +31,10 @@ function App() {
         <h1>Server Size</h1>
         <ServerSizeGrid items={serverSizeDetails} />
       </div>
+      {/* <div>
+        <h1>Server Image</h1>
+        <ServerSizeGrid items={serverSizeDetails} />
+      </div> */}
     </>
   );
 }
