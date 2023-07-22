@@ -16,11 +16,6 @@ const ProductGrid = ({ products }) => {
                     className={`product-card ${selectedProduct === product ? 'selected' : ''}`}
                     onClick={() => handleProductClick(product)}
                 >
-                    {selectedProduct === product && (
-                        <div className="selected-tick">
-                            <span>&#10004;</span>
-                        </div>
-                    )}
                     <img src={product.image} alt={product.title} className="product-image" />
                     <h2 className="product-title">{product.title}</h2>
                     <p className="product-description">{product.description}</p>
@@ -28,6 +23,7 @@ const ProductGrid = ({ products }) => {
                         <p className="product-price">Starting From <br />{product.price}</p>
                         <button className="add-button">{product.buttonTitle}</button>
                     </div>
+                    {selectedProduct === product && <div className="tick-icon">✔</div>}
                 </div>
             ))
             }

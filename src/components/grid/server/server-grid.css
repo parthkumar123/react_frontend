@@ -4,12 +4,6 @@
     grid-gap: 20px;
 }
 
-.product-card {
-    background-color: #f5f5f5;
-    padding: 20px;
-    border-radius: 5px;
-}
-
 .product-price-box {
     display: flex;
     justify-content: center;
@@ -60,29 +54,14 @@
 
 .product-card {
     position: relative;
-    /* Add position relative for the tick mark */
-    /* Rest of the styles */
-
-    /* Add hover effect for selecting the card */
+    background-color: #f5f5f5;
+    padding: 20px;
     transition: background-color 0.3s;
     cursor: pointer;
 }
 
 .product-card.selected {
-    background-color: #d8d8d8;
-    broder: 3px solid black;
-}
-
-.selected-tick {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    background-color: blue;
-    color: white;
-    padding: 5px 10px;
-    /* clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 50%); */
-    font-size: 20px;
-    z-index: 1;
+    border-color: blue;
 }
 
 /* .selected-tick {

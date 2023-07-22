@@ -1,0 +1,11 @@
+.tick-icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    /* clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 50%); */
+    font-size: 15%;
+    z-index: 1;
+}

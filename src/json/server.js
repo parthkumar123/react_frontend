@@ -133,3 +133,82 @@ export const serverLocationJson = () => {
         // Add more product objects here
     ];
 }
+
+export const serverSizeJson = () => {
+    return [
+        {
+            id: 1,
+            priceDetails: {
+                storage: "25 GB NCMe",
+                monthlyPrice: "$28/month",
+                hourlyPrice: "$28/hour"
+            },
+            specificationDetails: {
+                cpu: "14 vCPUs",
+                memory: "8 GB Memory",
+                bandwidth: "6 TB Bandwidth"
+            }
+        }, {
+            id: 2,
+            priceDetails: {
+                storage: "255 GB NCMe",
+                monthlyPrice: "$29/month",
+                hourlyPrice: "$28/hour"
+            },
+            specificationDetails: {
+                cpu: "24 vCPUs",
+                memory: "8 GB Memory",
+                bandwidth: "6 TB Bandwidth"
+            }
+        }, {
+            id: 3,
+            priceDetails: {
+                storage: "225 GB NCMe",
+                monthlyPrice: "$30/month",
+                hourlyPrice: "$28/hour"
+            },
+            specificationDetails: {
+                cpu: "34 vCPUs",
+                memory: "8 GB Memory",
+                bandwidth: "6 TB Bandwidth"
+            }
+        }, {
+            id: 4,
+            priceDetails: {
+                storage: "2500 GB NCMe",
+                monthlyPrice: "$31/month",
+                hourlyPrice: "$28/hour"
+            },
+            specificationDetails: {
+                cpu: "44 vCPUs",
+                memory: "8 GB Memory",
+                bandwidth: "6 TB Bandwidth"
+            }
+        }, {
+            id: 5,
+            priceDetails: {
+                storage: "205 GB NCMe",
+                monthlyPrice: "$32/month",
+                hourlyPrice: "$28/hour"
+            },
+            specificationDetails: {
+                cpu: "54 vCPUs",
+                memory: "8 GB Memory",
+                bandwidth: "6 TB Bandwidth"
+            }
+        }, {
+            id: 6,
+            priceDetails: {
+                storage: "250 GB NCMe",
+                monthlyPrice: "$33/month",
+                hourlyPrice: "$28/hour"
+            },
+            specificationDetails: {
+                cpu: "64 vCPUs",
+                memory: "8 GB Memory",
+                bandwidth: "6 TB Bandwidth"
+            }
+        }
+        // Add more product objects here
+    ];
+}
