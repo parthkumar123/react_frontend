@@ -40,19 +40,23 @@ export const serverTypeJson = () => {
         {
             id: 1,
             image: product1,
-            description: 'General Purpose'
+            name: 'General Purpose',
+            description: 'Often a good starting point, these VMs provide a typical balance of CPU, RAM, and NVMe SSD resources.'
         }, {
             id: 2,
             image: product1,
-            description: 'CPU Optimized'
+            name: 'CPU Optimized',
+            description: 'For compute bound applications, these VMs provide proportionally more CPU than they do RAM and NVMe SSD.'
         }, {
             id: 3,
             image: product1,
-            description: 'Memory Optimized'
+            name: 'Memory Optimized',
+            description: 'For memory bound applications, these VMs provide proportionally more RAM than they do CPU and NVMe SSD.'
         }, {
             id: 4,
             image: product1,
-            description: 'Storage Optimized'
+            name: 'Storage Optimized',
+            description: 'These VMs provide especially generous amounts of NVMe SSD storage to accompany a typical balance of CPU and RAM.'
         },
         // Add more product objects here
     ];

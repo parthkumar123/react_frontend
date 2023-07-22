@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import './server-type-grid.css'; // Import the CSS file
 
-const InfoPopup = ({ image, description }) => {
+const InfoPopup = ({ image, name, description }) => {
     return (
         <div className="info-popup">
             <img src={image} alt="Component" />
-            <p>{description}</p>
+            <p>{name}</p>
+            {/* <p>{description}</p> */}
         </div>
     );
 };
@@ -20,6 +21,7 @@ const CardComponent = ({ items }) => {
     };
 
     const handleInfoIconHover = (e) => {
+        console.log(e)
         setInfoPosition({ x: e.clientX, y: e.clientY });
         setShowInfo(true);
     };
@@ -40,7 +42,7 @@ const CardComponent = ({ items }) => {
                         <img src={item.image} alt="Image" />
                     </div>
                     <div className="info-container">
-                        <p className="description">{item.description}</p>
+                        <p className="description">{item.name}</p>
                         <span
                             className="info-icon"
                             onMouseEnter={handleInfoIconHover}
@@ -53,6 +55,7 @@ const CardComponent = ({ items }) => {
                     {showInfo && (
                         <InfoPopup
                             image={item.image}
+                            name={item.name}
                             description={item.description}
                             style={{ top: infoPosition.y + 10, left: infoPosition.x + 10 }}
                         />
