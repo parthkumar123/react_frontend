@@ -61,3 +61,75 @@ export const serverTypeJson = () => {
         // Add more product objects here
     ];
 }
+
+export const serverLocationJson = () => {
+    return [
+        {
+            id: 1,
+            image: product1,
+            city: 'Delhi',
+            country: 'India'
+        }, {
+            id: 2,
+            image: product1,
+            city: 'California',
+            country: 'USA'
+        }, {
+            id: 3,
+            image: product1,
+            city: 'London',
+            country: 'UK'
+        }, {
+            id: 4,
+            image: product1,
+            city: 'Melbourne',
+            country: 'Australia'
+        }, {
+            id: 5,
+            image: product1,
+            city: 'Melbourne',
+            country: 'Australia'
+        }, {
+            id: 6,
+            image: product1,
+            city: 'Melbourne',
+            country: 'Australia'
+        }, {
+            id: 7,
+            image: product1,
+            city: 'Melbourne',
+            country: 'Australia'
+        }, {
+            id: 8,
+            image: product1,
+            city: 'Melbourne',
+            country: 'Australia'
+        }, {
+            id: 9,
+            image: product1,
+            city: 'Melbourne',
+            country: 'Australia'
+        }, {
+            id: 10,
+            image: product1,
+            city: 'Melbourne',
+            country: 'Australia'
+        }, {
+            id: 11,
+            image: product1,
+            city: 'Melbourne',
+            country: 'Australia'
+        }, {
+            id: 12,
+            image: product1,
+            city: 'Melbourne',
+            country: 'Australia'
+        }, {
+            id: 13,
+            image: product1,
+            city: 'Melbourne',
+            country: 'Australia'
+        }
+        // Add more product objects here
+    ];
+}

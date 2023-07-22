@@ -1,0 +1,90 @@
+.card-component-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card-component {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 70px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: border-color 0.2s;
+}
+
+.card-component.selected {
+    border-color: blue;
+}
+
+.image-container {
+    width: 25%;
+}
+
+.image-container img {
+    width: 70%;
+    height: auto;
+}
+
+.info-container {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.city {
+    width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+}
+
+.country {
+    width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.info-icon {
+    cursor: pointer;
+}
+
+.info-popup {
+    position: absolute;
+    top: -120px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+.info-popup img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.tick-icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    /* clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 50%); */
+    font-size: 15%;
+    z-index: 1;
+}
