@@ -74,71 +74,170 @@ export const serverLocationJson = () => {
     return [
         {
             id: 1,
-            image: product1,
-            city: 'Delhi',
-            country: 'India'
+            name: 'All Locations',
+            details: [
+                {
+                    image: product1,
+                    city: 'Delhi',
+                    country: 'India'
+                },
+                {
+                    image: product1,
+                    city: 'Ahmedabad',
+                    country: 'India'
+                },
+                {
+                    image: product1,
+                    city: 'Rajkot',
+                    country: 'India'
+                },
+                {
+                    image: product1,
+                    city: 'Amreli',
+                    country: 'India'
+                },
+                {
+                    image: product1,
+                    city: 'Rajula',
+                    country: 'India'
+                },
+                {
+                    image: product1,
+                    city: 'Bopal',
+                    country: 'India'
+                },
+                {
+                    image: product1,
+                    city: 'Nikol',
+                    country: 'India'
+                },
+                {
+                    image: product1,
+                    city: 'Ghatlodia',
+                    country: 'India'
+                },
+                {
+                    image: product1,
+                    city: 'Babra',
+                    country: 'India'
+                },
+                {
+                    image: product1,
+                    city: 'Surat',
+                    country: 'India'
+                },
+                {
+                    image: product1,
+                    city: 'Vadodara',
+                    country: 'India'
+                },
+                {
+                    image: product1,
+                    city: 'California',
+                    country: 'USA'
+                },
+                {
+                    image: product1,
+                    city: 'Texas',
+                    country: 'USA'
+                },
+                {
+                    image: product1,
+                    city: 'Long Beach',
+                    country: 'USA'
+                },
+                {
+                    image: product1,
+                    city: 'Chicago',
+                    country: 'USA'
+                }
+            ]
         }, {
             id: 2,
-            image: product1,
-            city: 'California',
-            country: 'USA'
+            name: 'India',
+            details: [
+                {
+                    image: product1,
+                    city: 'Delhi',
+                    country: 'India'
+                },
+                {
+                    image: product1,
+                    city: 'Ahmedabad',
+                    country: 'India'
+                },
+                {
+                    image: product1,
+                    city: 'Rajkot',
+                    country: 'India'
+                },
+                {
+                    image: product1,
+                    city: 'Amreli',
+                    country: 'India'
+                },
+                {
+                    image: product1,
+                    city: 'Rajula',
+                    country: 'India'
+                },
+                {
+                    image: product1,
+                    city: 'Bopal',
+                    country: 'India'
+                },
+                {
+                    image: product1,
+                    city: 'Nikol',
+                    country: 'India'
+                },
+                {
+                    image: product1,
+                    city: 'Ghatlodia',
+                    country: 'India'
+                },
+                {
+                    image: product1,
+                    city: 'Babra',
+                    country: 'India'
+                },
+                {
+                    image: product1,
+                    city: 'Surat',
+                    country: 'India'
+                },
+                {
+                    image: product1,
+                    city: 'Vadodara',
+                    country: 'India'
+                }
+            ]
         }, {
             id: 3,
-            image: product1,
-            city: 'London',
-            country: 'UK'
-        }, {
-            id: 4,
-            image: product1,
-            city: 'Melbourne',
-            country: 'Australia'
-        }, {
-            id: 5,
-            image: product1,
-            city: 'Melbourne',
-            country: 'Australia'
-        }, {
-            id: 6,
-            image: product1,
-            city: 'Melbourne',
-            country: 'Australia'
-        }, {
-            id: 7,
-            image: product1,
-            city: 'Melbourne',
-            country: 'Australia'
-        }, {
-            id: 8,
-            image: product1,
-            city: 'Melbourne',
-            country: 'Australia'
-        }, {
-            id: 9,
-            image: product1,
-            city: 'Melbourne',
-            country: 'Australia'
-        }, {
-            id: 10,
-            image: product1,
-            city: 'Melbourne',
-            country: 'Australia'
-        }, {
-            id: 11,
-            image: product1,
-            city: 'Melbourne',
-            country: 'Australia'
-        }, {
-            id: 12,
-            image: product1,
-            city: 'Melbourne',
-            country: 'Australia'
-        }, {
-            id: 13,
-            image: product1,
-            city: 'Melbourne',
-            country: 'Australia'
+            name: 'USA',
+            details: [
+                {
+                    image: product1,
+                    city: 'California',
+                    country: 'USA'
+                },
+                {
+                    image: product1,
+                    city: 'Texas',
+                    country: 'USA'
+                },
+                {
+                    image: product1,
+                    city: 'Long Beach',
+                    country: 'USA'
+                },
+                {
+                    image: product1,
+                    city: 'Chicago',
+                    country: 'USA'
+                }
+            ]
         }
-        // Add more product objects here
     ];
 }
 
