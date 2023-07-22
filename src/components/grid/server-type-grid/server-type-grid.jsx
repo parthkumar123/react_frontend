@@ -21,7 +21,6 @@ const CardComponent = ({ items }) => {
     };
 
     const handleInfoIconHover = (e) => {
-        console.log(e)
         setInfoPosition({ x: e.clientX, y: e.clientY });
         setShowInfo(true);
     };
@@ -39,7 +38,7 @@ const CardComponent = ({ items }) => {
                     onClick={() => handleSelect(item)}
                 >
                     <div className="type-image-container">
-                        <img src={item.image} alt="Image" />
+                        <img src={item.image} alt={item.name} />
                     </div>
                     <div className="type-info-container">
                         <p className="type-description">{item.name}</p>

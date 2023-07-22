@@ -8,7 +8,7 @@ const CardComponent = ({ items }) => {
         setSelectedCountry(item === selectedCountry ? null : item);
     };
 
-    const [selectedItem, setSelectedItem] = useState(null);
+    const [selectedItem, setSelectedItem] = useState(items[0].name);
     const handleItemClick = (item) => {
         setSelectedItem(item);
     };
