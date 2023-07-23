@@ -30,38 +30,42 @@ const CardComponent = ({ items }) => {
     };
 
     return (
-        <div className="type-card-component-container">
-            {items.map((item) => (
-                <div
-                    key={item.id}
-                    className={`type-card-component ${item === selectedItem ? 'selected' : ''}`}
-                    onClick={() => handleSelect(item)}
-                >
-                    <div className="type-image-container">
-                        <img src={item.image} alt={item.name} />
+        <>
+            <h1>Server Type</h1>
+            <div className="type-card-component-container">
+                {items.map((item) => (
+                    <div
+                        key={item.id}
+                        className={`type-card-component ${item === selectedItem ? 'selected' : ''}`}
+                        onClick={() => handleSelect(item)}
+                    >
+                        <div className="type-image-container">
+                            <img src={item.image} alt={item.name} />
+                        </div>
+                        <div className="type-info-container">
+                            <p className="type-description">{item.name}</p>
+                            <span
+                                className="type-info-icon"
+                                onMouseEnter={handleInfoIconHover}
+                                onMouseLeave={handleInfoIconLeave}
+                            >
+                                &#8505;
+                            </span>
+                        </div>
+                        {item === selectedItem && <div className="tick-icon">✔</div>}
+                        {showInfo && (
+                            <InfoPopup
+                                image={item.image}
+                                name={item.name}
+                                description={item.description}
+                                style={{ top: infoPosition.y + 10, left: infoPosition.x + 10 }}
+                            />
+                        )}
                     </div>
-                    <div className="type-info-container">
-                        <p className="type-description">{item.name}</p>
-                        <span
-                            className="type-info-icon"
-                            onMouseEnter={handleInfoIconHover}
-                            onMouseLeave={handleInfoIconLeave}
-                        >
-                            &#8505;
-                        </span>
-                    </div>
-                    {item === selectedItem && <div className="tick-icon">✔</div>}
-                    {showInfo && (
-                        <InfoPopup
-                            image={item.image}
-                            name={item.name}
-                            description={item.description}
-                            style={{ top: infoPosition.y + 10, left: infoPosition.x + 10 }}
-                        />
-                    )}
-                </div>
-            ))}
-        </div>
+                ))}
+            </div>
+        </>
+
     );
 };
 

@@ -14,6 +14,7 @@ const CardComponent = ({ items }) => {
     };
     return (
         <>
+            <h1>Server Location</h1>
             <div className="App">
                 <nav className="navbar">
                     <ul className="nav">

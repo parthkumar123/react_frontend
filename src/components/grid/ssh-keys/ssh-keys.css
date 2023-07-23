@@ -1,0 +1,53 @@
+.ssh-header {
+    display: flex;
+    align-items: center;
+}
+
+.ssh-header a {
+    padding-left: 10px;
+    padding-top: 7px;
+    text-decoration: none;
+}
+
+.ssh-card-component-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border: 1px dotted gray;
+    height: 100px;
+    width: 350px;
+    cursor: pointer;
+}
+
+.ssh-card-component-container:hover {
+    border: 1px solid blue;
+}
+
+.ssh-card-component {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 347px;
+    height: 70px;
+    transition: border-color 0.2s;
+}
+
+.ssh-image-container {
+    width: 25%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.ssh-image-container img {
+    width: 45%;
+    height: 100%;
+}
+
+.ssh-info-container {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}

@@ -9,26 +9,29 @@ const CardComponent = ({ items }) => {
     };
 
     return (
-        <div className="description-component-container">
-            {items.map((item) => (
-                <div
-                    key={item.id}
-                    className={`description-component ${item === selectedItem ? 'selected' : ''}`}
-                    onClick={() => handleSelect(item)}
-                >
-                    <div className="description-info-container">
-                        <span>{item.priceDetails.storage}</span>
-                        <span>{item.priceDetails.monthlyPrice}</span>
-                        <span> {item.priceDetails.hourlyPrice}</span>
-                        <span className="horizontal-line"></span>
-                        <span> {item.specificationDetails.cpu}</span>
-                        <span> {item.specificationDetails.memory}</span>
-                        <span> {item.specificationDetails.bandwidth}</span>
+        <>
+            <h1>Server Size</h1>
+            <div className="description-component-container">
+                {items.map((item) => (
+                    <div
+                        key={item.id}
+                        className={`description-component ${item === selectedItem ? 'selected' : ''}`}
+                        onClick={() => handleSelect(item)}
+                    >
+                        <div className="description-info-container">
+                            <span>{item.priceDetails.storage}</span>
+                            <span>{item.priceDetails.monthlyPrice}</span>
+                            <span> {item.priceDetails.hourlyPrice}</span>
+                            <span className="horizontal-line"></span>
+                            <span> {item.specificationDetails.cpu}</span>
+                            <span> {item.specificationDetails.memory}</span>
+                            <span> {item.specificationDetails.bandwidth}</span>
+                        </div>
+                        {item === selectedItem && <div className="tick-icon">✔</div>}
                     </div>
-                    {item === selectedItem && <div className="tick-icon">✔</div>}
-                </div>
-            ))}
-        </div>
+                ))}
+            </div>
+        </>
     );
 };
 
